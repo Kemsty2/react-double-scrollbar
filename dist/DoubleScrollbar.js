@@ -154,7 +154,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    key: "render",
 	    value: function render() {
 	
-	      var outerDivStyle = { overflowX: "auto", overflowY: "hidden" };
+	      var outerDivStyle = { overflowX: "auto", overflowY: "hidden", width: "100%"};
 	      var innerDivStyle = { paddingTop: "1px", width: this.state.width };
 	      var childDivStyle = { overflow: "auto", overflowY: "hidden" };
 	
